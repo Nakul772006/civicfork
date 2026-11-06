@@ -1,0 +1,167 @@
+# =============================================================================
+# CivicFork — Scenario Type Definitions & Modelling Parameters
+# =============================================================================
+
+scenarios:
+  park:
+    id: "park"
+    name: "Parks / Recreational Space"
+    category: "green_space"
+    description: "Public urban park with green landscaping, walking paths, recreational areas, and native tree canopy."
+    default_area_sqm: 2000.0
+    ref_area_sqm: 2000.0
+    cost_per_sqm: 5000.0
+    operating_ratio: 0.05
+    base_visitors: 200
+    jobs_per_1000sqm: 2.0
+    base_traffic_pct: 5.0
+    trip_rate: 1.2
+    green_ratio: 0.85
+    impervious_ratio: 0.10
+    revenue_generating: false
+    addresses_gaps:
+      - "parks"
+      - "community"
+    attributes:
+      amenities:
+        - "walking_trail"
+        - "benches"
+        - "tree_canopy"
+        - "children_play_area"
+      maintenance_frequency: "bi-weekly"
+
+  healthcare:
+    id: "healthcare"
+    name: "Healthcare Facility"
+    category: "public_service"
+    description: "Primary healthcare center or municipal clinic providing outpatient and emergency medical services."
+    default_area_sqm: 3000.0
+    ref_area_sqm: 3000.0
+    cost_per_sqm: 45000.0
+    operating_ratio: 0.25
+    base_visitors: 500
+    jobs_per_1000sqm: 25.0
+    base_traffic_pct: 25.0
+    trip_rate: 2.0
+    green_ratio: -0.10
+    impervious_ratio: 0.70
+    revenue_generating: false
+    addresses_gaps:
+      - "healthcare"
+    attributes:
+      beds_per_1000sqm: 10
+      emergency_access: true
+
+  education:
+    id: "education"
+    name: "Educational Facility"
+    category: "public_service"
+    description: "Municipal primary or secondary school with classrooms, library, and recreational grounds."
+    default_area_sqm: 2500.0
+    ref_area_sqm: 2500.0
+    cost_per_sqm: 25000.0
+    operating_ratio: 0.15
+    base_visitors: 400
+    jobs_per_1000sqm: 12.0
+    base_traffic_pct: 20.0
+    trip_rate: 1.8
+    green_ratio: 0.10
+    impervious_ratio: 0.55
+    revenue_generating: false
+    addresses_gaps:
+      - "education"
+    attributes:
+      classrooms_per_1000sqm: 4
+      playground_included: true
+
+  parking:
+    id: "parking"
+    name: "Multi-level Parking / Transit Hub"
+    category: "infrastructure"
+    description: "Structured multi-level vehicle parking facility with EV charging stations to relieve street congestion."
+    default_area_sqm: 1500.0
+    ref_area_sqm: 1000.0
+    cost_per_sqm: 15000.0
+    operating_ratio: 0.08
+    base_visitors: 300
+    jobs_per_1000sqm: 3.0
+    base_traffic_pct: 15.0
+    trip_rate: 2.5
+    green_ratio: -0.05
+    impervious_ratio: 0.90
+    revenue_generating: true
+    addresses_gaps:
+      - "parking"
+      - "transport"
+    attributes:
+      parking_bays_per_1000sqm: 35
+      ev_charging_spots: 8
+
+  commercial:
+    id: "commercial"
+    name: "Commercial / Mixed-Use Development"
+    category: "economic"
+    description: "Ground-floor retail and community marketplace with upper-floor office space generating municipal revenue."
+    default_area_sqm: 2000.0
+    ref_area_sqm: 2000.0
+    cost_per_sqm: 35000.0
+    operating_ratio: 0.12
+    base_visitors: 600
+    jobs_per_1000sqm: 15.0
+    base_traffic_pct: 40.0
+    trip_rate: 2.2
+    green_ratio: -0.05
+    impervious_ratio: 0.80
+    revenue_generating: true
+    addresses_gaps:
+      - "commercial"
+      - "parking"
+    attributes:
+      retail_units: 12
+      office_units: 6
+
+  community_centre:
+    id: "community_centre"
+    name: "Community / Cultural Centre"
+    category: "public_service"
+    description: "Multi-purpose civic hall for neighborhood gatherings, cultural events, library services, and youth activities."
+    default_area_sqm: 1500.0
+    ref_area_sqm: 1500.0
+    cost_per_sqm: 18000.0
+    operating_ratio: 0.10
+    base_visitors: 250
+    jobs_per_1000sqm: 5.0
+    base_traffic_pct: 10.0
+    trip_rate: 1.4
+    green_ratio: 0.15
+    impervious_ratio: 0.50
+    revenue_generating: false
+    addresses_gaps:
+      - "community"
+      - "parks"
+    attributes:
+      auditorium_capacity: 250
+      public_library: true
+
+  public_transport:
+    id: "public_transport"
+    name: "Public Transport Terminal"
+    category: "infrastructure"
+    description: "Local bus terminal and multi-modal transit interchange facilitating feeder connectivity."
+    default_area_sqm: 1500.0
+    ref_area_sqm: 1500.0
+    cost_per_sqm: 22000.0
+    operating_ratio: 0.18
+    base_visitors: 800
+    jobs_per_1000sqm: 8.0
+    base_traffic_pct: 15.0
+    trip_rate: 2.8
+    green_ratio: 0.00
+    impervious_ratio: 0.60
+    revenue_generating: false
+    addresses_gaps:
+      - "transport"
+      - "commercial"
+    attributes:
+      bus_bays: 6
+      passenger_shelter: true

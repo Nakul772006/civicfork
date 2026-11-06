@@ -1,0 +1,332 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/4001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.65,
+          12.315413
+        ]
+      },
+      "properties": {
+        "osm_id": "node/4001",
+        "name": "Ramaswamy Circle Bus Stop",
+        "transport_type": "bus_stop",
+        "tags": {
+          "highway": "bus_stop"
+        },
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.644483,
+          12.301881
+        ]
+      },
+      "properties": {
+        "osm_id": "node/4002",
+        "name": "Saraswathipuram 1st Main Bus Stop",
+        "transport_type": "bus_stop",
+        "tags": {
+          "highway": "bus_stop"
+        },
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.653678,
+          12.296468
+        ]
+      },
+      "properties": {
+        "osm_id": "node/4003",
+        "name": "Kantharaj Urs Road Bus Stop",
+        "transport_type": "bus_stop",
+        "tags": {
+          "highway": "bus_stop"
+        },
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.661033,
+          12.329847
+        ]
+      },
+      "properties": {
+        "osm_id": "node/4010",
+        "name": "Mysuru Central Bus Stand (CBS)",
+        "transport_type": "bus_station",
+        "tags": {
+          "amenity": "bus_station"
+        },
+        "amenity": "bus_station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.664711,
+          12.330749
+        ]
+      },
+      "properties": {
+        "osm_id": "node/4011",
+        "name": "Mysuru Suburb Bus Stand",
+        "transport_type": "bus_station",
+        "tags": {
+          "amenity": "bus_station"
+        },
+        "amenity": "bus_station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.652758,
+          12.335259
+        ]
+      },
+      "properties": {
+        "osm_id": "node/4012",
+        "name": "Mysuru Junction Railway Station",
+        "transport_type": "railway_station",
+        "tags": {
+          "railway": "station"
+        },
+        "railway": "station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.638967,
+          12.287447
+        ]
+      },
+      "properties": {
+        "osm_id": "node/4013",
+        "name": "Kuvempunagar Bus Complex",
+        "transport_type": "bus_station",
+        "tags": {
+          "amenity": "bus_station"
+        },
+        "amenity": "bus_station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.636208,
+          12.331651
+        ]
+      },
+      "properties": {
+        "osm_id": "node/4014",
+        "name": "Gokulam 3rd Stage Bus Stop",
+        "transport_type": "bus_stop",
+        "tags": {
+          "highway": "bus_stop"
+        },
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/4010",
+        "name": "Vijayanagar TTMC Bus Station",
+        "transport_type": "bus_station",
+        "tags": {
+          "amenity": "bus_station",
+          "public_transport": "station",
+          "provenance": "[supplied] KSRTC / MCTD urban terminal records"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6165,
+          12.3325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/4011",
+        "name": "Vijayanagar 4th Stage Bus Stop",
+        "transport_type": "bus_stop",
+        "tags": {
+          "highway": "bus_stop",
+          "public_transport": "platform",
+          "provenance": "[supplied] MCTD route schedule & OpenStreetMap"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.608,
+          12.337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/4012",
+        "name": "Hebbal Industrial Bus Stand",
+        "transport_type": "bus_station",
+        "tags": {
+          "amenity": "bus_station",
+          "public_transport": "station",
+          "provenance": "[supplied] KSRTC / MCTD terminal records"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6095,
+          12.3545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/4013",
+        "name": "KRS Road Manipal Hospital Bus Stop",
+        "transport_type": "bus_stop",
+        "tags": {
+          "highway": "bus_stop",
+          "public_transport": "platform",
+          "provenance": "[supplied] MCTD route schedule"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6192,
+          12.358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/4014",
+        "name": "PKTB Sanatorium Bus Stop",
+        "transport_type": "bus_stop",
+        "tags": {
+          "highway": "bus_stop",
+          "public_transport": "platform",
+          "provenance": "[supplied] MCTD route schedule"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6182,
+          12.3485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/4015",
+        "name": "Ashokapuram Railway Station",
+        "transport_type": "railway_station",
+        "tags": {
+          "railway": "station",
+          "public_transport": "station",
+          "provenance": "[supplied] Indian Railways Southern Zone station gazette"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6465,
+          12.2785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/4016",
+        "name": "Bogadi Ring Road Junction Bus Stop",
+        "transport_type": "bus_stop",
+        "tags": {
+          "highway": "bus_stop",
+          "public_transport": "platform",
+          "provenance": "[supplied] MCTD route schedule"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.609,
+          12.3025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/4017",
+        "name": "Outer Ring Road Royal Inn Bus Stop",
+        "transport_type": "bus_stop",
+        "tags": {
+          "highway": "bus_stop",
+          "public_transport": "platform",
+          "provenance": "[supplied] MCTD route schedule"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.606,
+          12.361
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "provenance": "[supplied] Karnataka State Road Transport Corporation (KSRTC), Mysore City Transport Division (MCTD), and Southern Railway station records",
+    "license": "ODbL / Open Data",
+    "spatial_coverage": "Mysuru Metropolitan Area",
+    "storage_crs": "EPSG:4326 (WGS84)",
+    "analysis_crs": "EPSG:32643 (UTM Zone 43N)"
+  }
+}

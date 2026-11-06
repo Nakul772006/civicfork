@@ -1,0 +1,64 @@
+# =============================================================================
+# CivicFork — Feasibility Constraints & Rules
+# =============================================================================
+
+rules:
+  minimum_area:
+    severity: "blocker"
+    description: "Proposed plot area must meet or exceed minimum required area"
+  proximity_conflict:
+    severity: "warning"
+    description: "No facility of the same type should be within the conflict radius"
+  service_saturation:
+    severity: "warning"
+    description: "Existing facilities in the area should not exceed saturation limit"
+  zoning_compatibility:
+    severity: "warning"
+    description: "Dominant land-use zone must not be incompatible with scenario type"
+
+scenarios:
+  park:
+    min_area_sqm: 500.0
+    conflict_radius_m: 300.0
+    saturation_limit: 5
+    incompatible_zones:
+      - "industrial"
+
+  healthcare:
+    min_area_sqm: 2000.0
+    conflict_radius_m: 1500.0
+    saturation_limit: 3
+    incompatible_zones:
+      - "industrial"
+
+  education:
+    min_area_sqm: 1500.0
+    conflict_radius_m: 1000.0
+    saturation_limit: 4
+    incompatible_zones:
+      - "industrial"
+
+  parking:
+    min_area_sqm: 400.0
+    conflict_radius_m: 500.0
+    saturation_limit: 4
+    incompatible_zones: []
+
+  commercial:
+    min_area_sqm: 500.0
+    conflict_radius_m: 200.0
+    saturation_limit: 8
+    incompatible_zones: []
+
+  community_centre:
+    min_area_sqm: 800.0
+    conflict_radius_m: 1500.0
+    saturation_limit: 2
+    incompatible_zones:
+      - "industrial"
+
+  public_transport:
+    min_area_sqm: 300.0
+    conflict_radius_m: 800.0
+    saturation_limit: 5
+    incompatible_zones: []

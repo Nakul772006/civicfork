@@ -1,0 +1,325 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/5001",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.648713,
+              12.31248
+            ],
+            [
+              76.649449,
+              12.31248
+            ],
+            [
+              76.649449,
+              12.312932
+            ],
+            [
+              76.648713,
+              12.312932
+            ],
+            [
+              76.648713,
+              12.31248
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/5001",
+        "name": "Mysuru Law Courts Main Building",
+        "building": "yes",
+        "tags": {
+          "building": "yes",
+          "name": "Mysuru Law Courts Main Building"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/5002",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.649448,
+              12.313518
+            ],
+            [
+              76.650552,
+              12.313518
+            ],
+            [
+              76.650552,
+              12.31406
+            ],
+            [
+              76.649448,
+              12.31406
+            ],
+            [
+              76.649448,
+              12.313518
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/5002",
+        "name": "Maharaja College Heritage Block",
+        "building": "yes",
+        "tags": {
+          "building": "yes",
+          "name": "Maharaja College Heritage Block"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/5003",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.645448,
+              12.315277
+            ],
+            [
+              76.646276,
+              12.315277
+            ],
+            [
+              76.646276,
+              12.315909
+            ],
+            [
+              76.645448,
+              12.315909
+            ],
+            [
+              76.645448,
+              12.315277
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/5003",
+        "name": "Marimallappa School Complex",
+        "building": "yes",
+        "tags": {
+          "building": "yes",
+          "name": "Marimallappa School Complex"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/5004",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.64954,
+              12.317036
+            ],
+            [
+              76.65046,
+              12.317036
+            ],
+            [
+              76.65046,
+              12.317758
+            ],
+            [
+              76.64954,
+              12.317758
+            ],
+            [
+              76.64954,
+              12.317036
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/5004",
+        "name": "Kamakshi Hospital Inpatient Block",
+        "building": "yes",
+        "tags": {
+          "building": "yes",
+          "name": "Kamakshi Hospital Inpatient Block"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/5005",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.649678,
+              12.311444
+            ],
+            [
+              76.650322,
+              12.311444
+            ],
+            [
+              76.650322,
+              12.311804
+            ],
+            [
+              76.649678,
+              12.311804
+            ],
+            [
+              76.649678,
+              12.311444
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/5005",
+        "name": "D. Devaraj Urs Retail Block A",
+        "building": "yes",
+        "tags": {
+          "building": "yes",
+          "name": "D. Devaraj Urs Retail Block A"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/5006",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.646414,
+              12.312075
+            ],
+            [
+              76.64715,
+              12.312075
+            ],
+            [
+              76.64715,
+              12.312797
+            ],
+            [
+              76.646414,
+              12.312797
+            ],
+            [
+              76.646414,
+              12.312075
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/5006",
+        "name": "Saraswathipuram Market Building",
+        "building": "yes",
+        "tags": {
+          "building": "yes",
+          "name": "Saraswathipuram Market Building"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/5007",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.650505,
+              12.32899
+            ],
+            [
+              76.651333,
+              12.32899
+            ],
+            [
+              76.651333,
+              12.329802
+            ],
+            [
+              76.650505,
+              12.329802
+            ],
+            [
+              76.650505,
+              12.32899
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/5007",
+        "name": "Town Hall Civic Centre Building",
+        "building": "yes",
+        "tags": {
+          "building": "yes",
+          "name": "Town Hall Civic Centre Building"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/5008",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.662182,
+              12.325697
+            ],
+            [
+              76.663562,
+              12.325697
+            ],
+            [
+              76.663562,
+              12.326779
+            ],
+            [
+              76.662182,
+              12.326779
+            ],
+            [
+              76.662182,
+              12.325697
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/5008",
+        "name": "Mysuru Palace Main Royal Pavilion",
+        "building": "yes",
+        "tags": {
+          "building": "yes",
+          "name": "Mysuru Palace Main Royal Pavilion"
+        }
+      }
+    }
+  ]
+}

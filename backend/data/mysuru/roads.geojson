@@ -1,0 +1,1224 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/2001",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.636208,
+            12.313157
+          ],
+          [
+            76.642644,
+            12.313157
+          ],
+          [
+            76.65,
+            12.313157
+          ],
+          [
+            76.657356,
+            12.313157
+          ],
+          [
+            76.663792,
+            12.313157
+          ],
+          [
+            76.672986,
+            12.313157
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/2001",
+        "name": "Jhansi Lakshmibai Road",
+        "highway": "primary",
+        "tags": {
+          "highway": "primary",
+          "name": "Jhansi Lakshmibai Road"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/2002",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.657815,
+            12.296468
+          ],
+          [
+            76.657815,
+            12.305489
+          ],
+          [
+            76.657815,
+            12.313157
+          ],
+          [
+            76.657815,
+            12.323532
+          ],
+          [
+            76.657815,
+            12.332553
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/2002",
+        "name": "Sayyaji Rao Road",
+        "highway": "primary",
+        "tags": {
+          "highway": "primary",
+          "name": "Sayyaji Rao Road"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/2003",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.627014,
+            12.320825
+          ],
+          [
+            76.638967,
+            12.319021
+          ],
+          [
+            76.65,
+            12.317217
+          ],
+          [
+            76.661033,
+            12.315413
+          ],
+          [
+            76.670228,
+            12.313608
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/2003",
+        "name": "Hunsur Highway Road",
+        "highway": "primary",
+        "tags": {
+          "highway": "primary",
+          "name": "Hunsur Highway Road"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/2004",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.663792,
+            12.287447
+          ],
+          [
+            76.664711,
+            12.300979
+          ],
+          [
+            76.665631,
+            12.314511
+          ],
+          [
+            76.66655,
+            12.328042
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/2004",
+        "name": "Bengaluru-Nilgiri Trunk Road",
+        "highway": "trunk",
+        "tags": {
+          "highway": "trunk",
+          "name": "Bengaluru-Nilgiri Trunk Road"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/2010",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.63345,
+            12.306392
+          ],
+          [
+            76.641725,
+            12.306392
+          ],
+          [
+            76.65,
+            12.306392
+          ],
+          [
+            76.658275,
+            12.306392
+          ],
+          [
+            76.66655,
+            12.306392
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/2010",
+        "name": "Chamaraja Double Road",
+        "highway": "secondary",
+        "tags": {
+          "highway": "secondary",
+          "name": "Chamaraja Double Road"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/2011",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.631611,
+            12.300077
+          ],
+          [
+            76.640805,
+            12.300077
+          ],
+          [
+            76.65,
+            12.300077
+          ],
+          [
+            76.659195,
+            12.300077
+          ],
+          [
+            76.668389,
+            12.300077
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/2011",
+        "name": "Kantharaj Urs Road",
+        "highway": "secondary",
+        "tags": {
+          "highway": "secondary",
+          "name": "Kantharaj Urs Road"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/2012",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.638967,
+            12.291958
+          ],
+          [
+            76.65,
+            12.296468
+          ],
+          [
+            76.661033,
+            12.300979
+          ],
+          [
+            76.670228,
+            12.305489
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/2012",
+        "name": "Vishwavamana Double Road",
+        "highway": "secondary",
+        "tags": {
+          "highway": "secondary",
+          "name": "Vishwavamana Double Road"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/2013",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.65,
+            12.300979
+          ],
+          [
+            76.65,
+            12.306392
+          ],
+          [
+            76.65,
+            12.31
+          ],
+          [
+            76.65,
+            12.315413
+          ],
+          [
+            76.65,
+            12.323532
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/2013",
+        "name": "Ramaswamy Circle Radial",
+        "highway": "secondary",
+        "tags": {
+          "highway": "secondary",
+          "name": "Ramaswamy Circle Radial"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/2020",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.644483,
+            12.302783
+          ],
+          [
+            76.644483,
+            12.308196
+          ],
+          [
+            76.644483,
+            12.313157
+          ],
+          [
+            76.644483,
+            12.318119
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/2020",
+        "name": "Saraswathipuram 1st Main Road",
+        "highway": "tertiary",
+        "tags": {
+          "highway": "tertiary",
+          "name": "Saraswathipuram 1st Main Road"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/2021",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.647242,
+            12.302783
+          ],
+          [
+            76.647242,
+            12.308196
+          ],
+          [
+            76.647242,
+            12.313157
+          ],
+          [
+            76.647242,
+            12.318119
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/2021",
+        "name": "Saraswathipuram 5th Main Road",
+        "highway": "tertiary",
+        "tags": {
+          "highway": "tertiary",
+          "name": "Saraswathipuram 5th Main Road"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/2022",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.653678,
+            12.302783
+          ],
+          [
+            76.653678,
+            12.308196
+          ],
+          [
+            76.653678,
+            12.313157
+          ],
+          [
+            76.653678,
+            12.318119
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/2022",
+        "name": "Lakshmipuram Main Road",
+        "highway": "tertiary",
+        "tags": {
+          "highway": "tertiary",
+          "name": "Lakshmipuram Main Road"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/2023",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.638967,
+            12.314511
+          ],
+          [
+            76.642644,
+            12.319021
+          ],
+          [
+            76.646322,
+            12.323532
+          ],
+          [
+            76.65,
+            12.326238
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/2023",
+        "name": "Kukkarahalli Lake Approach Road",
+        "highway": "tertiary",
+        "tags": {
+          "highway": "tertiary",
+          "name": "Kukkarahalli Lake Approach Road"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/2024",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.646322,
+            12.310902
+          ],
+          [
+            76.65,
+            12.310902
+          ],
+          [
+            76.653678,
+            12.310902
+          ],
+          [
+            76.657356,
+            12.310902
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/2024",
+        "name": "Mysuru Law Court Link Road",
+        "highway": "tertiary",
+        "tags": {
+          "highway": "tertiary",
+          "name": "Mysuru Law Court Link Road"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/2030",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.643564,
+            12.308196
+          ],
+          [
+            76.654597,
+            12.308196
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/2030",
+        "name": "Saraswathipuram 1st Cross",
+        "highway": "residential",
+        "tags": {
+          "highway": "residential",
+          "name": "Saraswathipuram 1st Cross"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/2031",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.643564,
+            12.309549
+          ],
+          [
+            76.654597,
+            12.309549
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/2031",
+        "name": "Saraswathipuram 2nd Cross",
+        "highway": "residential",
+        "tags": {
+          "highway": "residential",
+          "name": "Saraswathipuram 2nd Cross"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/2032",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.643564,
+            12.310902
+          ],
+          [
+            76.654597,
+            12.310902
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/2032",
+        "name": "Saraswathipuram 3rd Cross",
+        "highway": "residential",
+        "tags": {
+          "highway": "residential",
+          "name": "Saraswathipuram 3rd Cross"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/2033",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.643564,
+            12.312255
+          ],
+          [
+            76.654597,
+            12.312255
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/2033",
+        "name": "Saraswathipuram 4th Cross",
+        "highway": "residential",
+        "tags": {
+          "highway": "residential",
+          "name": "Saraswathipuram 4th Cross"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/2034",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.643564,
+            12.314511
+          ],
+          [
+            76.654597,
+            12.314511
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/2034",
+        "name": "Saraswathipuram 5th Cross",
+        "highway": "residential",
+        "tags": {
+          "highway": "residential",
+          "name": "Saraswathipuram 5th Cross"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/2035",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.643564,
+            12.316315
+          ],
+          [
+            76.654597,
+            12.316315
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/2035",
+        "name": "Saraswathipuram 6th Cross",
+        "highway": "residential",
+        "tags": {
+          "highway": "residential",
+          "name": "Saraswathipuram 6th Cross"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/2036",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.643564,
+            12.305489
+          ],
+          [
+            76.654597,
+            12.305489
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/2036",
+        "name": "Saraswathipuram 7th Cross",
+        "highway": "residential",
+        "tags": {
+          "highway": "residential",
+          "name": "Saraswathipuram 7th Cross"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/2037",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.652758,
+            12.304587
+          ],
+          [
+            76.657815,
+            12.304587
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/2037",
+        "name": "Lakshmipuram 1st Cross",
+        "highway": "residential",
+        "tags": {
+          "highway": "residential",
+          "name": "Lakshmipuram 1st Cross"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/2038",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.652758,
+            12.307294
+          ],
+          [
+            76.657815,
+            12.307294
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/2038",
+        "name": "Lakshmipuram 2nd Cross",
+        "highway": "residential",
+        "tags": {
+          "highway": "residential",
+          "name": "Lakshmipuram 2nd Cross"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/2039",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.652758,
+            12.31
+          ],
+          [
+            76.657815,
+            12.31
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/2039",
+        "name": "Lakshmipuram 3rd Cross",
+        "highway": "residential",
+        "tags": {
+          "highway": "residential",
+          "name": "Lakshmipuram 3rd Cross"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/2040",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.652758,
+            12.312706
+          ],
+          [
+            76.657815,
+            12.312706
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/2040",
+        "name": "Lakshmipuram 4th Cross",
+        "highway": "residential",
+        "tags": {
+          "highway": "residential",
+          "name": "Lakshmipuram 4th Cross"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/2041",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.641725,
+            12.303685
+          ],
+          [
+            76.645403,
+            12.303685
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/2041",
+        "name": "Chamarajapuram West Cross",
+        "highway": "residential",
+        "tags": {
+          "highway": "residential",
+          "name": "Chamarajapuram West Cross"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/2042",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.638967,
+            12.296468
+          ],
+          [
+            76.654597,
+            12.296468
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/2042",
+        "name": "Kuvempunagar North Street",
+        "highway": "residential",
+        "tags": {
+          "highway": "residential",
+          "name": "Kuvempunagar North Street"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/2043",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.638967,
+            12.293762
+          ],
+          [
+            76.654597,
+            12.293762
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/2043",
+        "name": "Kuvempunagar Central Street",
+        "highway": "residential",
+        "tags": {
+          "highway": "residential",
+          "name": "Kuvempunagar Central Street"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/2044",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.636208,
+            12.323532
+          ],
+          [
+            76.645403,
+            12.323532
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/2044",
+        "name": "Gokulam 3rd Stage Road",
+        "highway": "residential",
+        "tags": {
+          "highway": "residential",
+          "name": "Gokulam 3rd Stage Road"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/2045",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.638967,
+            12.317217
+          ],
+          [
+            76.65,
+            12.317217
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "way/2045",
+        "name": "Jayalakshmipuram Link Road",
+        "highway": "residential",
+        "tags": {
+          "highway": "residential",
+          "name": "Jayalakshmipuram Link Road"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "way/2050",
+        "name": "Outer Ring Road (North-West Arc)",
+        "highway": "trunk",
+        "tags": {
+          "highway": "trunk",
+          "name": "Outer Ring Road (North-West Arc)",
+          "provenance": "[supplied] NHAI / MUDA Outer Ring Road alignment"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.605,
+            12.365
+          ],
+          [
+            76.6065,
+            12.355
+          ],
+          [
+            76.6075,
+            12.345
+          ],
+          [
+            76.608,
+            12.335
+          ],
+          [
+            76.6095,
+            12.325
+          ],
+          [
+            76.611,
+            12.315
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "way/2051",
+        "name": "Krishna Raja Sagara (KRS) Road",
+        "highway": "primary",
+        "tags": {
+          "highway": "primary",
+          "name": "Krishna Raja Sagara (KRS) Road",
+          "provenance": "[supplied] PWD Karnataka State Highway records"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.6195,
+            12.368
+          ],
+          [
+            76.619,
+            12.3585
+          ],
+          [
+            76.618,
+            12.348
+          ],
+          [
+            76.622,
+            12.338
+          ],
+          [
+            76.635,
+            12.333
+          ],
+          [
+            76.6527,
+            12.3352
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "way/2052",
+        "name": "Hunsur Highway Road (NH 275 West Segment)",
+        "highway": "primary",
+        "tags": {
+          "highway": "primary",
+          "name": "Hunsur Highway Road (NH 275 West Segment)",
+          "provenance": "[supplied] NHAI NH 275 alignment"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.6426,
+            12.318
+          ],
+          [
+            76.632,
+            12.322
+          ],
+          [
+            76.622,
+            12.326
+          ],
+          [
+            76.612,
+            12.33
+          ],
+          [
+            76.602,
+            12.333
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "way/2053",
+        "name": "Vijayanagar 80 Feet Main Road",
+        "highway": "secondary",
+        "tags": {
+          "highway": "secondary",
+          "name": "Vijayanagar 80 Feet Main Road",
+          "provenance": "[supplied] MUDA layout arterial plan & OpenStreetMap"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.625,
+            12.328
+          ],
+          [
+            76.62,
+            12.331
+          ],
+          [
+            76.615,
+            12.333
+          ],
+          [
+            76.61,
+            12.336
+          ],
+          [
+            76.605,
+            12.338
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "way/2054",
+        "name": "Hebbal Main Road",
+        "highway": "secondary",
+        "tags": {
+          "highway": "secondary",
+          "name": "Hebbal Main Road",
+          "provenance": "[supplied] MCC arterial road records & OpenStreetMap"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.605,
+            12.354
+          ],
+          [
+            76.611,
+            12.354
+          ],
+          [
+            76.615,
+            12.355
+          ],
+          [
+            76.619,
+            12.356
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "way/2055",
+        "name": "Bogadi Main Road",
+        "highway": "secondary",
+        "tags": {
+          "highway": "secondary",
+          "name": "Bogadi Main Road",
+          "provenance": "[supplied] PWD road records & OpenStreetMap"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.635,
+            12.305
+          ],
+          [
+            76.625,
+            12.304
+          ],
+          [
+            76.615,
+            12.303
+          ],
+          [
+            76.605,
+            12.302
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "way/2056",
+        "name": "Vishwamanava Double Road",
+        "highway": "secondary",
+        "tags": {
+          "highway": "secondary",
+          "name": "Vishwamanava Double Road",
+          "provenance": "[supplied] MCC Kuvempunagar layout plan"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.635,
+            12.3
+          ],
+          [
+            76.6345,
+            12.292
+          ],
+          [
+            76.634,
+            12.285
+          ],
+          [
+            76.6335,
+            12.278
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "way/2057",
+        "name": "Kuvempunagar - Ramakrishnanagar 80 Feet Road",
+        "highway": "tertiary",
+        "tags": {
+          "highway": "tertiary",
+          "name": "Kuvempunagar - Ramakrishnanagar 80 Feet Road",
+          "provenance": "[supplied] MUDA layout plan & OpenStreetMap"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.645,
+            12.284
+          ],
+          [
+            76.635,
+            12.285
+          ],
+          [
+            76.625,
+            12.286
+          ],
+          [
+            76.615,
+            12.287
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "way/2058",
+        "name": "Hebbal Industrial Ring Connector",
+        "highway": "tertiary",
+        "tags": {
+          "highway": "tertiary",
+          "name": "Hebbal Industrial Ring Connector",
+          "provenance": "[supplied] KIADB estate road network"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.615,
+            12.365
+          ],
+          [
+            76.615,
+            12.355
+          ],
+          [
+            76.614,
+            12.348
+          ]
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "provenance": "[supplied] OpenStreetMap road network, National Highways Authority of India (NHAI), and PWD Karnataka Mysore road corridor records",
+    "license": "ODbL / Open Data",
+    "spatial_coverage": "Mysuru Metropolitan Area",
+    "storage_crs": "EPSG:4326 (WGS84)",
+    "analysis_crs": "EPSG:32643 (UTM Zone 43N)"
+  }
+}

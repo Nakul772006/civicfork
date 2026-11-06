@@ -1,0 +1,972 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "relation/3001",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.642644,
+              12.301881
+            ],
+            [
+              76.657356,
+              12.301881
+            ],
+            [
+              76.657356,
+              12.312707
+            ],
+            [
+              76.642644,
+              12.312707
+            ],
+            [
+              76.642644,
+              12.301881
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "relation/3001",
+        "name": "Saraswathipuram Residential Neighborhood A",
+        "landuse": "residential",
+        "tags": {
+          "landuse": "residential",
+          "name": "Saraswathipuram Residential Neighborhood A"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "relation/3002",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.65092,
+              12.306391
+            ],
+            [
+              76.660114,
+              12.306391
+            ],
+            [
+              76.660114,
+              12.317217
+            ],
+            [
+              76.65092,
+              12.317217
+            ],
+            [
+              76.65092,
+              12.306391
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "relation/3002",
+        "name": "Lakshmipuram Residential Neighborhood B",
+        "landuse": "residential",
+        "tags": {
+          "landuse": "residential",
+          "name": "Lakshmipuram Residential Neighborhood B"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "relation/3003",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.638047,
+              12.298273
+            ],
+            [
+              76.649081,
+              12.298273
+            ],
+            [
+              76.649081,
+              12.305489
+            ],
+            [
+              76.638047,
+              12.305489
+            ],
+            [
+              76.638047,
+              12.298273
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "relation/3003",
+        "name": "Chamarajapuram Residential Zone",
+        "landuse": "residential",
+        "tags": {
+          "landuse": "residential",
+          "name": "Chamarajapuram Residential Zone"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "relation/3004",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.638047,
+              12.291506
+            ],
+            [
+              76.650919,
+              12.291506
+            ],
+            [
+              76.650919,
+              12.299626
+            ],
+            [
+              76.638047,
+              12.299626
+            ],
+            [
+              76.638047,
+              12.291506
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "relation/3004",
+        "name": "Kuvempunagar North Residential Ward",
+        "landuse": "residential",
+        "tags": {
+          "landuse": "residential",
+          "name": "Kuvempunagar North Residential Ward"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "relation/3010",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.648621,
+              12.311354
+            ],
+            [
+              76.655057,
+              12.311354
+            ],
+            [
+              76.655057,
+              12.317668
+            ],
+            [
+              76.648621,
+              12.317668
+            ],
+            [
+              76.648621,
+              12.311354
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "relation/3010",
+        "name": "D. Devaraj Urs Road Commercial & Retail Hub",
+        "landuse": "commercial",
+        "tags": {
+          "landuse": "commercial",
+          "name": "D. Devaraj Urs Road Commercial & Retail Hub"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "relation/3011",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.655746,
+              12.308195
+            ],
+            [
+              76.659884,
+              12.308195
+            ],
+            [
+              76.659884,
+              12.319021
+            ],
+            [
+              76.655746,
+              12.319021
+            ],
+            [
+              76.655746,
+              12.308195
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "relation/3011",
+        "name": "Sayyaji Rao Road Commercial Strip",
+        "landuse": "commercial",
+        "tags": {
+          "landuse": "commercial",
+          "name": "Sayyaji Rao Road Commercial Strip"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "relation/3012",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.652298,
+              12.302783
+            ],
+            [
+              76.656896,
+              12.302783
+            ],
+            [
+              76.656896,
+              12.308195
+            ],
+            [
+              76.652298,
+              12.308195
+            ],
+            [
+              76.652298,
+              12.302783
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "relation/3012",
+        "name": "Chamaraja Shopping & Wholesale District",
+        "landuse": "commercial",
+        "tags": {
+          "landuse": "commercial",
+          "name": "Chamaraja Shopping & Wholesale District"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "relation/3020",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.642184,
+              12.320826
+            ],
+            [
+              76.65046,
+              12.320826
+            ],
+            [
+              76.65046,
+              12.328042
+            ],
+            [
+              76.642184,
+              12.328042
+            ],
+            [
+              76.642184,
+              12.320826
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "relation/3020",
+        "name": "Kukkarahalli Lake Nature Reserve & Park",
+        "landuse": "forest",
+        "tags": {
+          "landuse": "forest",
+          "name": "Kukkarahalli Lake Nature Reserve & Park"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "relation/3021",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.644253,
+              12.312029
+            ],
+            [
+              76.648391,
+              12.312029
+            ],
+            [
+              76.648391,
+              12.315187
+            ],
+            [
+              76.644253,
+              12.315187
+            ],
+            [
+              76.644253,
+              12.312029
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "relation/3021",
+        "name": "Saraswathipuram Community Recreation Ground",
+        "landuse": "recreation_ground",
+        "tags": {
+          "landuse": "recreation_ground",
+          "name": "Saraswathipuram Community Recreation Ground"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "relation/3030",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.637358,
+              12.297145
+            ],
+            [
+              76.642414,
+              12.297145
+            ],
+            [
+              76.642414,
+              12.303009
+            ],
+            [
+              76.637358,
+              12.303009
+            ],
+            [
+              76.637358,
+              12.297145
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "relation/3030",
+        "name": "Southern Railway Light Maintenance Yards",
+        "landuse": "industrial",
+        "tags": {
+          "landuse": "industrial",
+          "name": "Southern Railway Light Maintenance Yards"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "relation/3040",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.617819,
+              12.324434
+            ],
+            [
+              76.636209,
+              12.324434
+            ],
+            [
+              76.636209,
+              12.340672
+            ],
+            [
+              76.617819,
+              12.340672
+            ],
+            [
+              76.617819,
+              12.324434
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "relation/3040",
+        "name": "Hebbal Industrial Mega Estate",
+        "landuse": "industrial",
+        "tags": {
+          "landuse": "industrial",
+          "name": "Hebbal Industrial Mega Estate"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "relation/3041",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.658274,
+              12.321727
+            ],
+            [
+              76.66747,
+              12.321727
+            ],
+            [
+              76.66747,
+              12.330749
+            ],
+            [
+              76.658274,
+              12.330749
+            ],
+            [
+              76.658274,
+              12.321727
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "relation/3041",
+        "name": "Mysore Palace Heritage Estate Grounds",
+        "landuse": "commercial",
+        "tags": {
+          "landuse": "commercial",
+          "name": "Mysore Palace Heritage Estate Grounds"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "relation/3042",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.661494,
+              12.276171
+            ],
+            [
+              76.684478,
+              12.276171
+            ],
+            [
+              76.684478,
+              12.298723
+            ],
+            [
+              76.661494,
+              12.298723
+            ],
+            [
+              76.661494,
+              12.276171
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_id": "relation/3042",
+        "name": "Chamundi Hill Reserve Forest",
+        "landuse": "forest",
+        "tags": {
+          "landuse": "forest",
+          "name": "Chamundi Hill Reserve Forest"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "relation/3050",
+        "name": "Vijayanagar 1st & 2nd Stage Residential Layout",
+        "landuse": "residential",
+        "tags": {
+          "landuse": "residential",
+          "name": "Vijayanagar 1st & 2nd Stage Residential Layout",
+          "provenance": "[supplied] MUDA Master Plan 2031 & OpenStreetMap"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.612,
+              12.322
+            ],
+            [
+              76.626,
+              12.322
+            ],
+            [
+              76.626,
+              12.335
+            ],
+            [
+              76.612,
+              12.335
+            ],
+            [
+              76.612,
+              12.322
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "relation/3051",
+        "name": "Vijayanagar 3rd & 4th Stage Residential Layout",
+        "landuse": "residential",
+        "tags": {
+          "landuse": "residential",
+          "name": "Vijayanagar 3rd & 4th Stage Residential Layout",
+          "provenance": "[supplied] MUDA Master Plan 2031 & OpenStreetMap"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.602,
+              12.326
+            ],
+            [
+              76.614,
+              12.326
+            ],
+            [
+              76.614,
+              12.342
+            ],
+            [
+              76.602,
+              12.342
+            ],
+            [
+              76.602,
+              12.326
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "relation/3052",
+        "name": "Vijayanagar Commercial Corridor & Market Hub",
+        "landuse": "commercial",
+        "tags": {
+          "landuse": "commercial",
+          "name": "Vijayanagar Commercial Corridor & Market Hub",
+          "provenance": "[supplied] MUDA Master Plan 2031 & OpenStreetMap"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.613,
+              12.33
+            ],
+            [
+              76.618,
+              12.33
+            ],
+            [
+              76.618,
+              12.335
+            ],
+            [
+              76.613,
+              12.335
+            ],
+            [
+              76.613,
+              12.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "relation/3053",
+        "name": "Vijayanagar Water Tank Eco-Park",
+        "landuse": "recreation_ground",
+        "tags": {
+          "landuse": "recreation_ground",
+          "name": "Vijayanagar Water Tank Eco-Park",
+          "provenance": "[supplied] OpenStreetMap leisure survey"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.613,
+              12.329
+            ],
+            [
+              76.616,
+              12.329
+            ],
+            [
+              76.616,
+              12.332
+            ],
+            [
+              76.613,
+              12.332
+            ],
+            [
+              76.613,
+              12.329
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "relation/3060",
+        "name": "Hebbal Subhash Nagar & Housing Board Residential Colony",
+        "landuse": "residential",
+        "tags": {
+          "landuse": "residential",
+          "name": "Hebbal Subhash Nagar & Housing Board Residential Colony",
+          "provenance": "[supplied] Karnataka Housing Board & OpenStreetMap"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.604,
+              12.348
+            ],
+            [
+              76.616,
+              12.348
+            ],
+            [
+              76.616,
+              12.362
+            ],
+            [
+              76.604,
+              12.362
+            ],
+            [
+              76.604,
+              12.348
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "relation/3061",
+        "name": "Hebbal Lake Ecological Reserve & Public Park",
+        "landuse": "forest",
+        "tags": {
+          "landuse": "forest",
+          "name": "Hebbal Lake Ecological Reserve & Public Park",
+          "provenance": "[supplied] Karnataka Forest Department & OpenStreetMap"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.61,
+              12.347
+            ],
+            [
+              76.618,
+              12.347
+            ],
+            [
+              76.618,
+              12.354
+            ],
+            [
+              76.61,
+              12.354
+            ],
+            [
+              76.61,
+              12.347
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "relation/3062",
+        "name": "KRS Road Healthcare & Research Campus",
+        "landuse": "commercial",
+        "tags": {
+          "landuse": "commercial",
+          "name": "KRS Road Healthcare & Research Campus",
+          "provenance": "[supplied] OpenStreetMap & Health Dept survey"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.615,
+              12.344
+            ],
+            [
+              76.621,
+              12.344
+            ],
+            [
+              76.621,
+              12.352
+            ],
+            [
+              76.615,
+              12.352
+            ],
+            [
+              76.615,
+              12.344
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "relation/3063",
+        "name": "KIADB Hebbal Industrial Area Phase 1",
+        "landuse": "industrial",
+        "tags": {
+          "landuse": "industrial",
+          "name": "KIADB Hebbal Industrial Area Phase 1",
+          "provenance": "[supplied] KIADB Industrial survey & OpenStreetMap"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.614,
+              12.354
+            ],
+            [
+              76.626,
+              12.354
+            ],
+            [
+              76.626,
+              12.368
+            ],
+            [
+              76.614,
+              12.368
+            ],
+            [
+              76.614,
+              12.354
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "relation/3070",
+        "name": "Ramakrishnanagar Residential Extension",
+        "landuse": "residential",
+        "tags": {
+          "landuse": "residential",
+          "name": "Ramakrishnanagar Residential Extension",
+          "provenance": "[supplied] MUDA Master Plan 2031 & OpenStreetMap"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.62,
+              12.272
+            ],
+            [
+              76.634,
+              12.272
+            ],
+            [
+              76.634,
+              12.286
+            ],
+            [
+              76.62,
+              12.286
+            ],
+            [
+              76.62,
+              12.272
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "relation/3071",
+        "name": "Kuvempunagar Complex Commercial Hub",
+        "landuse": "commercial",
+        "tags": {
+          "landuse": "commercial",
+          "name": "Kuvempunagar Complex Commercial Hub",
+          "provenance": "[supplied] OpenStreetMap commercial survey"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.633,
+              12.283
+            ],
+            [
+              76.638,
+              12.283
+            ],
+            [
+              76.638,
+              12.289
+            ],
+            [
+              76.633,
+              12.289
+            ],
+            [
+              76.633,
+              12.283
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "relation/3080",
+        "name": "Gokulam Historic Residential Ward",
+        "landuse": "residential",
+        "tags": {
+          "landuse": "residential",
+          "name": "Gokulam Historic Residential Ward",
+          "provenance": "[supplied] OpenStreetMap & MCC ward records"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.624,
+              12.328
+            ],
+            [
+              76.638,
+              12.328
+            ],
+            [
+              76.638,
+              12.34
+            ],
+            [
+              76.624,
+              12.34
+            ],
+            [
+              76.624,
+              12.328
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "provenance": "[supplied] OpenStreetMap land-use relations, Mysore Urban Development Authority (MUDA) Master Plan 2031 zonal designations, and Karnataka State GIS survey records",
+    "license": "ODbL / Open Data",
+    "spatial_coverage": "Mysuru Metropolitan Area",
+    "storage_crs": "EPSG:4326 (WGS84)",
+    "analysis_crs": "EPSG:32643 (UTM Zone 43N)"
+  }
+}

@@ -1,0 +1,179 @@
+# =============================================================================
+# CivicFork — Scoring & Simulation Configuration
+# =============================================================================
+
+# Base score matrix across 7 scenarios and 6 dimensions (Gap Improvement computed via relevance)
+# Convention: Higher score (0-100) is always better.
+base_scores:
+  park:
+    traffic: 80.0
+    cost: 75.0
+    environmental: 90.0
+    accessibility: 55.0
+    social_utility: 65.0
+  healthcare:
+    traffic: 45.0
+    cost: 30.0
+    environmental: 45.0
+    accessibility: 65.0
+    social_utility: 85.0
+  education:
+    traffic: 50.0
+    cost: 35.0
+    environmental: 50.0
+    accessibility: 60.0
+    social_utility: 80.0
+  parking:
+    traffic: 35.0
+    cost: 70.0
+    environmental: 25.0
+    accessibility: 70.0
+    social_utility: 35.0
+  commercial:
+    traffic: 30.0
+    cost: 50.0
+    environmental: 30.0
+    accessibility: 50.0
+    social_utility: 55.0
+  community_centre:
+    traffic: 65.0
+    cost: 60.0
+    environmental: 55.0
+    accessibility: 65.0
+    social_utility: 80.0
+  public_transport:
+    traffic: 70.0
+    cost: 40.0
+    environmental: 65.0
+    accessibility: 85.0
+    social_utility: 70.0
+
+# Context modifier sensitivity coefficients and rules
+modifiers:
+  traffic:
+    road_capacity_bonus_weight: 10.0
+    road_capacity_max_multiplier: 1.5
+    major_road_bonus_close_m: 500.0
+    major_road_bonus_close_points: 10.0
+    major_road_bonus_medium_m: 1000.0
+    major_road_bonus_medium_points: 5.0
+    congestion_penalty_weight: 15.0
+    visitor_load_penalty_weight: 20.0
+    reference_daily_trips: 5000.0
+  cost:
+    area_scaling_penalty_weight: 15.0
+    revenue_offset_bonus: 15.0
+  environmental:
+    green_change_weight: 20.0
+    impervious_penalty_weight: 15.0
+    green_deficit_threshold_pct: 15.0
+    green_deficit_bonus_weight: 10.0
+    industrial_adjacency_threshold_pct: 20.0
+    industrial_adjacency_penalty: 5.0
+  accessibility:
+    transit_proximity_weight: 15.0
+    transit_coverage_weight: 10.0
+    transit_coverage_target_stops: 5.0
+    road_connectivity_weight: 10.0
+    population_density_weight: 10.0
+    population_density_target: 10000.0
+    remoteness_transit_threshold_m: 2000.0
+    remoteness_road_density_factor: 0.5
+    remoteness_penalty: 10.0
+  social_utility:
+    population_reach_weight: 15.0
+    population_reach_target: 10000.0
+    employment_weight: 10.0
+    employment_target_jobs: 50.0
+    gap_bonus_weight: 10.0
+    underserved_area_bonus: 5.0
+    underserved_poi_threshold_factor: 0.5
+
+# Baseline reference parameters
+references:
+  road_density_m_per_sqkm: 10000.0
+  poi_count: 100
+  population_density_ref: 5000.0
+
+# Gap-to-scenario relevance matrix (R_{s, c})
+gap_relevance:
+  park:
+    healthcare: 0.0
+    education: 0.0
+    parks: 1.0
+    transport: 0.0
+    parking: 0.0
+    commercial: 0.0
+    community: 0.2
+  healthcare:
+    healthcare: 1.0
+    education: 0.0
+    parks: 0.0
+    transport: 0.0
+    parking: 0.0
+    commercial: 0.0
+    community: 0.1
+  education:
+    healthcare: 0.0
+    education: 1.0
+    parks: 0.0
+    transport: 0.0
+    parking: 0.0
+    commercial: 0.0
+    community: 0.1
+  parking:
+    healthcare: 0.0
+    education: 0.0
+    parks: 0.0
+    transport: 0.1
+    parking: 1.0
+    commercial: 0.1
+    community: 0.0
+  commercial:
+    healthcare: 0.0
+    education: 0.0
+    parks: 0.0
+    transport: 0.0
+    parking: 0.1
+    commercial: 1.0
+    community: 0.1
+  community_centre:
+    healthcare: 0.1
+    education: 0.1
+    parks: 0.2
+    transport: 0.0
+    parking: 0.0
+    commercial: 0.0
+    community: 1.0
+  public_transport:
+    healthcare: 0.0
+    education: 0.0
+    parks: 0.0
+    transport: 1.0
+    parking: 0.0
+    commercial: 0.1
+    community: 0.0
+
+# Expected coverage distance thresholds and baseline counts per gap category
+gap_thresholds:
+  healthcare:
+    coverage_threshold_m: 3000.0
+    expected_facilities: 3
+  education:
+    coverage_threshold_m: 1500.0
+    expected_facilities: 4
+  parks:
+    coverage_threshold_m: 1500.0
+    expected_facilities: 3
+  transport:
+    coverage_threshold_m: 2000.0
+    expected_facilities: 5
+  parking:
+    coverage_threshold_m: 1000.0
+    expected_facilities: 3
+  commercial:
+    coverage_threshold_m: 1000.0
+    expected_facilities: 4
+  community:
+    coverage_threshold_m: 2000.0
+    expected_facilities: 2

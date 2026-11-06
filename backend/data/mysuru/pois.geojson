@@ -1,0 +1,1916 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/1001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.65,
+          12.311804
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1001",
+        "name": "D. Devaraj Urs Road Shopping Arcade",
+        "category": "commercial",
+        "subcategory": "retail",
+        "tags": {
+          "shop": "mall"
+        },
+        "shop": "mall"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.646782,
+          12.312255
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1002",
+        "name": "Saraswathipuram Market Complex",
+        "category": "commercial",
+        "subcategory": "market",
+        "tags": {
+          "amenity": "marketplace"
+        },
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.654597,
+          12.306392
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1003",
+        "name": "Chamaraja Shopping Complex",
+        "category": "commercial",
+        "subcategory": "retail",
+        "tags": {
+          "shop": "department_store"
+        },
+        "shop": "department_store"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.653678,
+          12.317217
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1004",
+        "name": "Lakshmipuram Commercial Street",
+        "category": "commercial",
+        "subcategory": "retail",
+        "tags": {
+          "shop": "clothes"
+        },
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.644483,
+          12.303685
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1005",
+        "name": "Mysuru Central Arcade",
+        "category": "commercial",
+        "subcategory": "supermarket",
+        "tags": {
+          "shop": "supermarket"
+        },
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.65,
+          12.313608
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1010",
+        "name": "Maharaja's Junior College",
+        "category": "education",
+        "subcategory": "college",
+        "tags": {
+          "amenity": "college"
+        },
+        "amenity": "college"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.645862,
+          12.315413
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1011",
+        "name": "Marimallappa High School",
+        "category": "education",
+        "subcategory": "school",
+        "tags": {
+          "amenity": "school"
+        },
+        "amenity": "school"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.652758,
+          12.303234
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1012",
+        "name": "Sarada Vilas Educational Institution",
+        "category": "education",
+        "subcategory": "college",
+        "tags": {
+          "amenity": "college"
+        },
+        "amenity": "college"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.642644,
+          12.307294
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1013",
+        "name": "Saraswathipuram Primary School",
+        "category": "education",
+        "subcategory": "school",
+        "tags": {
+          "amenity": "school"
+        },
+        "amenity": "school"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1020",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.65,
+          12.315413
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1020",
+        "name": "Ramaswamy Circle Bus Interchange",
+        "category": "transport",
+        "subcategory": "bus_station",
+        "tags": {
+          "amenity": "bus_station"
+        },
+        "amenity": "bus_station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1021",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.641725,
+          12.305489
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1021",
+        "name": "Chamarajapuram Railway Halt",
+        "category": "transport",
+        "subcategory": "railway_station",
+        "tags": {
+          "railway": "station"
+        },
+        "railway": "station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1022",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.654597,
+          12.300077
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1022",
+        "name": "Kantharaj Urs Road Transit Terminus",
+        "category": "transport",
+        "subcategory": "bus_station",
+        "tags": {
+          "amenity": "bus_station"
+        },
+        "amenity": "bus_station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1030",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.65,
+          12.317217
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1030",
+        "name": "Kamakshi Community Hospital",
+        "category": "healthcare",
+        "subcategory": "hospital",
+        "tags": {
+          "amenity": "hospital"
+        },
+        "amenity": "hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1031",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.643564,
+          12.301881
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1031",
+        "name": "Saraswathipuram Urban Health Centre",
+        "category": "healthcare",
+        "subcategory": "clinic",
+        "tags": {
+          "amenity": "clinic"
+        },
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1040",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.65,
+          12.320825
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1040",
+        "name": "Town Hall Multi-Level Car Parking",
+        "category": "parking",
+        "subcategory": "parking",
+        "tags": {
+          "amenity": "parking"
+        },
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1050",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.65,
+          12.326238
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1050",
+        "name": "Kukkarahalli Lake Eco-Park Promenade",
+        "category": "parks",
+        "subcategory": "park",
+        "tags": {
+          "leisure": "park"
+        },
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1101",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.650919,
+          12.312706
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1101",
+        "name": "Mysuru Law Courts Complex",
+        "category": "government",
+        "subcategory": "courthouse",
+        "tags": {
+          "amenity": "courthouse"
+        },
+        "amenity": "courthouse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1102",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.648161,
+          12.313157
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1102",
+        "name": "Saraswathipuram Post Office",
+        "category": "government",
+        "subcategory": "post_office",
+        "tags": {
+          "amenity": "post_office"
+        },
+        "amenity": "post_office"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1103",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.648621,
+          12.306392
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1103",
+        "name": "State Bank of India Main Branch",
+        "category": "commercial",
+        "subcategory": "bank",
+        "tags": {
+          "amenity": "bank"
+        },
+        "amenity": "bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1104",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.652299,
+          12.31406
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1104",
+        "name": "Canara Bank Saraswathipuram",
+        "category": "commercial",
+        "subcategory": "bank",
+        "tags": {
+          "amenity": "bank"
+        },
+        "amenity": "bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1105",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.647242,
+          12.311353
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1105",
+        "name": "Ganapathi Temple Saraswathipuram",
+        "category": "other",
+        "subcategory": "place_of_worship",
+        "tags": {
+          "amenity": "place_of_worship"
+        },
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1106",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.654138,
+          12.314962
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1106",
+        "name": "Lakshmipuram Police Station",
+        "category": "government",
+        "subcategory": "police",
+        "tags": {
+          "amenity": "police"
+        },
+        "amenity": "police"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1107",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.651379,
+          12.316315
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1107",
+        "name": "Mysuru District Library Branch",
+        "category": "other",
+        "subcategory": "library",
+        "tags": {
+          "amenity": "library"
+        },
+        "amenity": "library"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1108",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.646322,
+          12.304587
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1108",
+        "name": "Sri Chamundeshwari Bhavan",
+        "category": "other",
+        "subcategory": "social_facility",
+        "tags": {
+          "amenity": "social_facility"
+        },
+        "amenity": "social_facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1109",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.650919,
+          12.314962
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1109",
+        "name": "Karnataka Bank Ramaswamy Circle",
+        "category": "commercial",
+        "subcategory": "bank",
+        "tags": {
+          "amenity": "bank"
+        },
+        "amenity": "bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1110",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.644483,
+          12.315413
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1110",
+        "name": "Saraswathipuram Fire Sub-station",
+        "category": "government",
+        "subcategory": "fire_station",
+        "tags": {
+          "amenity": "fire_station"
+        },
+        "amenity": "fire_station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1111",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.653218,
+          12.306843
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1111",
+        "name": "Telephone Exchange BSNL",
+        "category": "government",
+        "subcategory": "public_building",
+        "tags": {
+          "amenity": "telephone"
+        },
+        "amenity": "telephone"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1112",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.643564,
+          12.307294
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1112",
+        "name": "Vijaya Bank Chamarajapuram",
+        "category": "commercial",
+        "subcategory": "bank",
+        "tags": {
+          "amenity": "bank"
+        },
+        "amenity": "bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1113",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.645403,
+          12.313608
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1113",
+        "name": "Saraswathipuram Badminton Club",
+        "category": "other",
+        "subcategory": "sports_centre",
+        "tags": {
+          "leisure": "sports_centre"
+        },
+        "leisure": "sports_centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1114",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.65046,
+          12.315864
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1114",
+        "name": "Ramaswamy Circle Post Sub-office",
+        "category": "government",
+        "subcategory": "post_office",
+        "tags": {
+          "amenity": "post_office"
+        },
+        "amenity": "post_office"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1115",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.647701,
+          12.314511
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1115",
+        "name": "HDFC Bank Saraswathipuram",
+        "category": "commercial",
+        "subcategory": "bank",
+        "tags": {
+          "amenity": "bank"
+        },
+        "amenity": "bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1116",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.654597,
+          12.316315
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1116",
+        "name": "Sub-Registrar Office Mysuru South",
+        "category": "government",
+        "subcategory": "public_building",
+        "tags": {
+          "amenity": "public_building"
+        },
+        "amenity": "public_building"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1117",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.647242,
+          12.30594
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1117",
+        "name": "ICICI Bank ATM & Branch",
+        "category": "commercial",
+        "subcategory": "bank",
+        "tags": {
+          "amenity": "bank"
+        },
+        "amenity": "bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1118",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.651839,
+          12.317668
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1118",
+        "name": "Raghavendra Swamy Mutt",
+        "category": "other",
+        "subcategory": "place_of_worship",
+        "tags": {
+          "amenity": "place_of_worship"
+        },
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1119",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.644943,
+          12.307745
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1119",
+        "name": "Mysuru City Corporation Ward Office",
+        "category": "government",
+        "subcategory": "townhall",
+        "tags": {
+          "amenity": "townhall"
+        },
+        "amenity": "townhall"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1120",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.652758,
+          12.318119
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1120",
+        "name": "Indian Overseas Bank Branch",
+        "category": "commercial",
+        "subcategory": "bank",
+        "tags": {
+          "amenity": "bank"
+        },
+        "amenity": "bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1121",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.655517,
+          12.317668
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1121",
+        "name": "Lakshmipuram Health Diagnostic Lab",
+        "category": "healthcare",
+        "subcategory": "pharmacy",
+        "tags": {
+          "amenity": "pharmacy"
+        },
+        "amenity": "pharmacy"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1122",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.645862,
+          12.308647
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1122",
+        "name": "Saraswathipuram Reading Room",
+        "category": "other",
+        "subcategory": "library",
+        "tags": {
+          "amenity": "library"
+        },
+        "amenity": "library"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1123",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.649081,
+          12.302332
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1123",
+        "name": "Mysuru Milk Union Parlour",
+        "category": "commercial",
+        "subcategory": "shop",
+        "tags": {
+          "shop": "dairy"
+        },
+        "shop": "dairy"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1124",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.656436,
+          12.303685
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1124",
+        "name": "Rotary Children Youth Hall",
+        "category": "other",
+        "subcategory": "community_centre",
+        "tags": {
+          "amenity": "youth_centre"
+        },
+        "amenity": "youth_centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1125",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.642185,
+          12.31406
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1125",
+        "name": "Nataraja Kalyana Mantapa",
+        "category": "other",
+        "subcategory": "function_hall",
+        "tags": {
+          "amenity": "function_room"
+        },
+        "amenity": "function_room"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1126",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.646782,
+          12.316766
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1126",
+        "name": "Axis Bank Saraswathipuram",
+        "category": "commercial",
+        "subcategory": "bank",
+        "tags": {
+          "amenity": "bank"
+        },
+        "amenity": "bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1127",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.657356,
+          12.315413
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1127",
+        "name": "Government Silk Weaving Centre",
+        "category": "government",
+        "subcategory": "office",
+        "tags": {
+          "office": "government"
+        },
+        "office": "government"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1128",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.641725,
+          12.311804
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1128",
+        "name": "Mysuru South Electrical Sub-station",
+        "category": "other",
+        "subcategory": "substation",
+        "tags": {
+          "power": "substation"
+        },
+        "power": "substation"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1129",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.653678,
+          12.301881
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1129",
+        "name": "Sri Rama Mandira Temple",
+        "category": "other",
+        "subcategory": "place_of_worship",
+        "tags": {
+          "amenity": "place_of_worship"
+        },
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.650919,
+          12.329396
+        ]
+      },
+      "properties": {
+        "osm_id": "node/2001",
+        "name": "Mysuru Town Hall Civic Auditorium",
+        "category": "community",
+        "subcategory": "community_centre",
+        "tags": {
+          "amenity": "community_centre"
+        },
+        "amenity": "community_centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.642644,
+          12.330749
+        ]
+      },
+      "properties": {
+        "osm_id": "node/2002",
+        "name": "Kalamandira Cultural Auditorium",
+        "category": "community",
+        "subcategory": "theatre",
+        "tags": {
+          "amenity": "theatre"
+        },
+        "amenity": "theatre"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.655517,
+          12.329847
+        ]
+      },
+      "properties": {
+        "osm_id": "node/2003",
+        "name": "Jaganmohan Palace Art Gallery & Auditorium",
+        "category": "community",
+        "subcategory": "arts_centre",
+        "tags": {
+          "amenity": "arts_centre"
+        },
+        "amenity": "arts_centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.657356,
+          12.330749
+        ]
+      },
+      "properties": {
+        "osm_id": "node/2010",
+        "name": "KR Hospital (Government District Hospital)",
+        "category": "healthcare",
+        "subcategory": "hospital",
+        "tags": {
+          "amenity": "hospital"
+        },
+        "amenity": "hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.638967,
+          12.290153
+        ]
+      },
+      "properties": {
+        "osm_id": "node/2011",
+        "name": "Apollo BGS Hospital Kuvempunagar",
+        "category": "healthcare",
+        "subcategory": "hospital",
+        "tags": {
+          "amenity": "hospital"
+        },
+        "amenity": "hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.668389,
+          12.332553
+        ]
+      },
+      "properties": {
+        "osm_id": "node/2012",
+        "name": "JSS Medical College & Hospital",
+        "category": "healthcare",
+        "subcategory": "hospital",
+        "tags": {
+          "amenity": "hospital"
+        },
+        "amenity": "hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2020",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.636208,
+          12.328945
+        ]
+      },
+      "properties": {
+        "osm_id": "node/2020",
+        "name": "Mysore University Manasagangotri Campus",
+        "category": "education",
+        "subcategory": "university",
+        "tags": {
+          "amenity": "university"
+        },
+        "amenity": "university"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2021",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.663792,
+          12.338868
+        ]
+      },
+      "properties": {
+        "osm_id": "node/2021",
+        "name": "St. Philomena's High School & College",
+        "category": "education",
+        "subcategory": "college",
+        "tags": {
+          "amenity": "college"
+        },
+        "amenity": "college"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2030",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.661033,
+          12.328945
+        ]
+      },
+      "properties": {
+        "osm_id": "node/2030",
+        "name": "Curzon Park (Palace North)",
+        "category": "parks",
+        "subcategory": "park",
+        "tags": {
+          "leisure": "park"
+        },
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2031",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.639886,
+          12.331651
+        ]
+      },
+      "properties": {
+        "osm_id": "node/2031",
+        "name": "Cheluvamba Park Vani Vilas",
+        "category": "parks",
+        "subcategory": "park",
+        "tags": {
+          "leisure": "park"
+        },
+        "leisure": "park"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2032",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.627014,
+          12.281132
+        ]
+      },
+      "properties": {
+        "osm_id": "node/2032",
+        "name": "Lingambudhi Botanical Reserve",
+        "category": "parks",
+        "subcategory": "park",
+        "tags": {
+          "leisure": "nature_reserve"
+        },
+        "leisure": "nature_reserve"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2040",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.662872,
+          12.328493
+        ]
+      },
+      "properties": {
+        "osm_id": "node/2040",
+        "name": "Mysuru Palace Underground Car Park",
+        "category": "parking",
+        "subcategory": "parking",
+        "tags": {
+          "amenity": "parking"
+        },
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2041",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.660114,
+          12.330298
+        ]
+      },
+      "properties": {
+        "osm_id": "node/2041",
+        "name": "City Bus Stand Multi-Storey Parking",
+        "category": "parking",
+        "subcategory": "parking",
+        "tags": {
+          "amenity": "parking"
+        },
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2050",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.66655,
+          12.323532
+        ]
+      },
+      "properties": {
+        "osm_id": "node/2050",
+        "name": "Mall of Mysore & Radisson Arcade",
+        "category": "commercial",
+        "subcategory": "mall",
+        "tags": {
+          "shop": "mall"
+        },
+        "shop": "mall"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2051",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.658275,
+          12.331651
+        ]
+      },
+      "properties": {
+        "osm_id": "node/2051",
+        "name": "Devaraja Century Heritage Market",
+        "category": "commercial",
+        "subcategory": "marketplace",
+        "tags": {
+          "amenity": "marketplace"
+        },
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2060",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.661033,
+          12.329847
+        ]
+      },
+      "properties": {
+        "osm_id": "node/2060",
+        "name": "Mysuru Central City Bus Terminal",
+        "category": "transport",
+        "subcategory": "bus_station",
+        "tags": {
+          "amenity": "bus_station"
+        },
+        "amenity": "bus_station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2061",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.652758,
+          12.335259
+        ]
+      },
+      "properties": {
+        "osm_id": "node/2061",
+        "name": "Mysuru Junction Main Railway Terminal",
+        "category": "transport",
+        "subcategory": "railway_station",
+        "tags": {
+          "railway": "station"
+        },
+        "railway": "station"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/3001",
+        "name": "Government Ayurveda Medical College & Hospital",
+        "category": "healthcare",
+        "subcategory": "hospital",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "healthcare:speciality": "ayurveda"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6585,
+          12.3085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/3002",
+        "name": "District Tuberculosis Centre & Clinic",
+        "category": "healthcare",
+        "subcategory": "clinic",
+        "tags": {
+          "amenity": "clinic",
+          "healthcare": "centre"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.658,
+          12.302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/3003",
+        "name": "Cheluvamba Hospital for Women & Children",
+        "category": "healthcare",
+        "subcategory": "hospital",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.658,
+          12.318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/3004",
+        "name": "CSI Holdsworth Memorial Hospital (Mission Hospital)",
+        "category": "healthcare",
+        "subcategory": "hospital",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6595,
+          12.319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/3005",
+        "name": "Mary Holdsworth Hospital",
+        "category": "healthcare",
+        "subcategory": "hospital",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.659,
+          12.321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/3006",
+        "name": "Vijayanagar Urban Primary Health Centre",
+        "category": "healthcare",
+        "subcategory": "clinic",
+        "tags": {
+          "amenity": "clinic",
+          "healthcare": "centre"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.616,
+          12.333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/3007",
+        "name": "Clearmedi Radiant Hospital",
+        "category": "healthcare",
+        "subcategory": "hospital",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.612,
+          12.338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/3008",
+        "name": "DRM Multi Speciality Hospital",
+        "category": "healthcare",
+        "subcategory": "hospital",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.628,
+          12.325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/3009",
+        "name": "Vijayanagar High School",
+        "category": "education",
+        "subcategory": "school",
+        "tags": {
+          "amenity": "school"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.615,
+          12.334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/3010",
+        "name": "Vijayanagar Water Tank Park",
+        "category": "parks",
+        "subcategory": "park",
+        "tags": {
+          "leisure": "park"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.614,
+          12.331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/3011",
+        "name": "Vijayanagar 1st Stage Bus Terminal",
+        "category": "transport",
+        "subcategory": "bus_station",
+        "tags": {
+          "amenity": "bus_station"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6165,
+          12.3325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/3012",
+        "name": "Vijayanagar Central Commercial Complex",
+        "category": "commercial",
+        "subcategory": "retail",
+        "tags": {
+          "shop": "mall"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6155,
+          12.3335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/3013",
+        "name": "Vijayanagar Public Parking Area",
+        "category": "parking",
+        "subcategory": "parking",
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.617,
+          12.332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/3014",
+        "name": "Vijayanagar Community Center",
+        "category": "community",
+        "subcategory": "community_centre",
+        "tags": {
+          "amenity": "community_centre"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6145,
+          12.335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/3015",
+        "name": "Hebbal Urban Primary Health Centre",
+        "category": "healthcare",
+        "subcategory": "clinic",
+        "tags": {
+          "amenity": "clinic",
+          "healthcare": "centre"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.611,
+          12.354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/3016",
+        "name": "Manipal Hospital Mysuru",
+        "category": "healthcare",
+        "subcategory": "hospital",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.619,
+          12.3585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/3017",
+        "name": "PKTB Sanatorium (Chest Diseases Hospital)",
+        "category": "healthcare",
+        "subcategory": "hospital",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.618,
+          12.348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/3018",
+        "name": "Jayadeva Institute of Cardiovascular Sciences",
+        "category": "healthcare",
+        "subcategory": "hospital",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6175,
+          12.3465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/3019",
+        "name": "Hebbal Government High School",
+        "category": "education",
+        "subcategory": "school",
+        "tags": {
+          "amenity": "school"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6105,
+          12.356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/3020",
+        "name": "Hebbal Lake Promenade & Park",
+        "category": "parks",
+        "subcategory": "park",
+        "tags": {
+          "leisure": "park"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.613,
+          12.353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/3021",
+        "name": "Hebbal Industrial Bus Stand",
+        "category": "transport",
+        "subcategory": "bus_station",
+        "tags": {
+          "amenity": "bus_station"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6095,
+          12.3545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/3022",
+        "name": "Hebbal Subhash Nagar Market",
+        "category": "commercial",
+        "subcategory": "marketplace",
+        "tags": {
+          "amenity": "marketplace"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6115,
+          12.3535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/3023",
+        "name": "Hebbal Industrial Area Parking",
+        "category": "parking",
+        "subcategory": "parking",
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.609,
+          12.354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/3024",
+        "name": "Hebbal Community Hall",
+        "category": "community",
+        "subcategory": "community_centre",
+        "tags": {
+          "amenity": "community_centre"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.612,
+          12.3555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/3025",
+        "name": "Bhanavi Hospital",
+        "category": "healthcare",
+        "subcategory": "hospital",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.634,
+          12.292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/3026",
+        "name": "Suyog Hospital",
+        "category": "healthcare",
+        "subcategory": "hospital",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.62,
+          12.285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/3027",
+        "name": "Vidyaranyapuram Urban Primary Health Centre",
+        "category": "healthcare",
+        "subcategory": "clinic",
+        "tags": {
+          "amenity": "clinic",
+          "healthcare": "centre"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.652,
+          12.286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/3028",
+        "name": "Gokulam Urban Primary Health Centre",
+        "category": "healthcare",
+        "subcategory": "clinic",
+        "tags": {
+          "amenity": "clinic",
+          "healthcare": "centre"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.626,
+          12.335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/3029",
+        "name": "St. Joseph's Hospital",
+        "category": "healthcare",
+        "subcategory": "hospital",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.658,
+          12.335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/3030",
+        "name": "Cauvery Heart & Multi Speciality Hospital",
+        "category": "healthcare",
+        "subcategory": "hospital",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.685,
+          12.311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": "node/3031",
+        "name": "Narayana Multispeciality Hospital",
+        "category": "healthcare",
+        "subcategory": "hospital",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.69,
+          12.335
+        ]
+      }
+    }
+  ]
+}
