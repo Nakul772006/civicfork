@@ -107,6 +107,16 @@ export const apiClient = {
       scenario_b_id: scenarioBId,
     }),
 
+  // 5b. Decision Stability / Sensitivity Analysis
+  getStability: (sessionId) =>
+    api.post('/api/stability', {
+      session_id: sessionId,
+    }),
+  checkStability: (sessionId) =>
+    api.post('/api/stability', {
+      session_id: sessionId,
+    }),
+
   // 6. Generate AI Narrative Explanation
   generateExplanation: (sessionId, narrativeType = 'full_report') =>
     api.post('/api/explain', {

@@ -27,6 +27,7 @@ from app.api.dependencies import (
     get_scenario_generator,
     get_session_store,
     get_settings,
+    get_stability_analyzer,
 )
 from app.config_loader import AppConfig
 from app.exceptions import MissingPrerequisiteError, ReportGenerationError, SessionNotFoundError
@@ -47,6 +48,7 @@ from app.models.requests import (
     RankRequest,
     ReportRequest,
     SimulateRequest,
+    StabilityRequest,
 )
 from app.models.responses import (
     AnalyzeBounds,
@@ -64,6 +66,8 @@ from app.models.responses import (
     RankResponseData,
     SimulateResponse,
     SimulateResponseData,
+    StabilityResponse,
+    StabilityResponseData,
 )
 from app.services.context_analyzer import ContextAnalyzer
 from app.services.counterfactual_engine import CounterfactualEngine
@@ -75,6 +79,7 @@ from app.services.osm_service import OSMServiceBase
 from app.services.ranking_engine import RankingEngine
 from app.services.report_generator import ReportGenerator
 from app.services.scenario_generator import ScenarioGenerator
+from app.services.stability_analyzer import StabilityAnalyzer
 from app.session import SessionStore
 from app.settings import Settings
 
@@ -195,6 +200,7 @@ async def simulate_scenarios(
     request: SimulateRequest,
     simulator: ImpactSimulator = Depends(get_impact_simulator),
     ranking_engine: RankingEngine = Depends(get_ranking_engine),
+    stability_analyzer: StabilityAnalyzer = Depends(get_stability_analyzer),
     store: SessionStore = Depends(get_session_store),
 ) -> Dict[str, Any]:
     """Second stage of CivicFork workflow: simulate 6 impact dimensions for all 7 alternatives."""
@@ -225,11 +231,19 @@ async def simulate_scenarios(
         scenarios=scenarios,
     )
 
+    # Compute default stability
+    default_stability = stability_analyzer.analyze(
+        score_matrix=score_matrix,
+        baseline_ranking=default_ranking,
+        scenarios=scenarios,
+    )
+
     # Update session state with simulation outputs
     session.score_matrix = score_matrix
     session.scenario_scores = score_matrix.scenario_scores
     session.ranking = default_ranking
     session.weights_used = default_weights
+    session.stability = default_stability
 
     data = SimulateResponseData(
         scenarios=scenarios,
@@ -254,6 +268,7 @@ async def simulate_scenarios(
 async def rank_scenarios(
     request: RankRequest,
     ranking_engine: RankingEngine = Depends(get_ranking_engine),
+    stability_analyzer: StabilityAnalyzer = Depends(get_stability_analyzer),
     store: SessionStore = Depends(get_session_store),
 ) -> Dict[str, Any]:
     """Third stage of CivicFork workflow: rank scenarios using user-supplied priority weights."""
@@ -279,13 +294,22 @@ async def rank_scenarios(
 
     weights_applied = request.weights.normalised()
 
+    # Calculate deterministic sensitivity analysis across alternative configurations
+    stability = stability_analyzer.analyze(
+        score_matrix=session.score_matrix,
+        baseline_ranking=ranking,
+        scenarios=scenarios,
+    )
+
     # Update session state
     session.ranking = ranking
     session.weights_used = weights_applied
+    session.stability = stability
 
     data = RankResponseData(
         ranking=ranking,
         weights_applied=weights_applied,
+        stability=stability,
     )
 
     return {
@@ -331,6 +355,54 @@ async def compare_counterfactual(
     session.counterfactual = result
 
     data = CounterfactualResponseData(result=result)
+
+    return {
+        "success": True,
+        "data": data,
+        "error": None,
+    }
+
+
+@api_router.post(
+    "/stability",
+    response_model=StabilityResponse,
+    status_code=status.HTTP_200_OK,
+    summary="Decision Stability / Sensitivity Analysis",
+)
+async def evaluate_stability(
+    request: StabilityRequest,
+    analyzer: StabilityAnalyzer = Depends(get_stability_analyzer),
+    store: SessionStore = Depends(get_session_store),
+) -> Dict[str, Any]:
+    """Evaluate robustness of the recommended scenario across alternative priority weight configurations."""
+    session = store.get(request.session_id)
+    if session is None:
+        raise SessionNotFoundError(request.session_id)
+
+    # Enforce workflow prerequisites: simulation and ranking must be completed
+    if session.score_matrix is None:
+        raise MissingPrerequisiteError(
+            message="Simulation must be completed before running stability analysis.",
+            missing_field="score_matrix",
+        )
+    if session.ranking is None:
+        raise MissingPrerequisiteError(
+            message="Ranking must be completed before running stability analysis.",
+            missing_field="ranking",
+        )
+
+    scenarios = session.scenarios or []
+
+    result = analyzer.analyze(
+        score_matrix=session.score_matrix,
+        baseline_ranking=session.ranking,
+        scenarios=scenarios,
+    )
+
+    # Mutate SessionData: sets stability
+    session.stability = result
+
+    data = StabilityResponseData(result=result)
 
     return {
         "success": True,

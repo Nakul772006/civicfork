@@ -15,6 +15,7 @@ const INITIAL_STATE = {
   weightsApplied: null,
   verdicts: [],
   counterfactual: null,
+  stability: null,
   narratives: {},
   geojson: {
     pois: null,

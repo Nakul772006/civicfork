@@ -12,6 +12,7 @@ from app.models.domain import (
     RankedScenario,
     Scenario,
     ScoreMatrix,
+    StabilityResult,
     WeightConfig,
 )
 
@@ -93,6 +94,7 @@ class RankResponseData(BaseModel):
 
     ranking: List[RankedScenario]
     weights_applied: WeightConfig
+    stability: Optional[StabilityResult] = None
 
 
 class FeasibilityResponseData(BaseModel):
@@ -109,6 +111,14 @@ class CounterfactualResponseData(BaseModel):
     model_config = ConfigDict(extra="ignore")
 
     result: CounterfactualResult
+
+
+class StabilityResponseData(BaseModel):
+    """Data payload for POST /api/stability."""
+
+    model_config = ConfigDict(extra="ignore")
+
+    result: StabilityResult
 
 
 class ExplainResponseData(BaseModel):
@@ -137,5 +147,6 @@ SimulateResponse = StandardResponse[SimulateResponseData]
 RankResponse = StandardResponse[RankResponseData]
 FeasibilityResponse = StandardResponse[FeasibilityResponseData]
 CounterfactualResponse = StandardResponse[CounterfactualResponseData]
+StabilityResponse = StandardResponse[StabilityResponseData]
 ExplainResponse = StandardResponse[ExplainResponseData]
 HealthResponse = StandardResponse[HealthResponseData]

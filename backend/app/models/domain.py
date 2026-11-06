@@ -630,6 +630,61 @@ class CounterfactualResult(BaseModel):
 
 
 # -------------------------------------------------------------------------
+# 19b. Decision Stability / Sensitivity Analysis Models
+# -------------------------------------------------------------------------
+
+class ConfigurationResult(BaseModel):
+    """Result of evaluating scenarios under a single priority configuration."""
+
+    model_config = ConfigDict(extra="ignore")
+
+    configuration_id: str = Field(..., description="Unique configuration key")
+    configuration_name: str = Field(..., description="Human-readable title")
+    weights: Dict[str, float] = Field(..., description="Raw priority weights used")
+    winning_scenario_id: str = Field(..., description="Top-ranked scenario ID")
+    winning_scenario_name: str = Field(..., description="Top-ranked scenario display name")
+    winning_score: float = Field(..., description="Composite weighted score of winner")
+    baseline_rank: int = Field(..., description="Rank of baseline scenario under this configuration")
+    baseline_score: float = Field(..., description="Composite score of baseline scenario")
+    baseline_won: bool = Field(..., description="Whether baseline scenario ranked #1")
+
+
+class ChallengerInfo(BaseModel):
+    """Details of the strongest competing alternative scenario."""
+
+    model_config = ConfigDict(extra="ignore")
+
+    scenario_id: str = Field(..., description="Challenger scenario ID")
+    scenario_name: str = Field(..., description="Challenger scenario display name")
+    wins: int = Field(..., description="Number of priority configurations won by challenger")
+
+
+class StabilityResult(BaseModel):
+    """Deterministic decision stability / sensitivity analysis result."""
+
+    model_config = ConfigDict(extra="ignore")
+
+    baseline_scenario_id: str = Field(..., description="Current recommended baseline scenario ID")
+    baseline_scenario_name: str = Field(..., description="Baseline scenario display name")
+    configurations_tested: List[str] = Field(..., description="Names or IDs of configurations tested")
+    baseline_wins: int = Field(..., description="Number of configurations won by baseline")
+    total_configurations: int = Field(default=7, description="Total unique configurations tested")
+    stability_score: float = Field(..., description="Percentage of configurations won by baseline (0-100)")
+    stability_level: str = Field(..., description="HIGH (>=75), MODERATE (>=50), or LOW (<50)")
+    scenario_win_counts: Dict[str, int] = Field(..., description="Map of scenario ID to win count")
+    strongest_challenger: Optional[ChallengerInfo] = Field(
+        default=None, description="Non-baseline scenario with most wins"
+    )
+    interpretation: str = Field(..., description="Deterministic interpretation of stability")
+    configuration_results: List[ConfigurationResult] = Field(
+        default_factory=list, description="Per-configuration ranking outcomes"
+    )
+    calculation_trace: Dict[str, Any] = Field(
+        default_factory=dict, description="Provenance and methodology trace"
+    )
+
+
+# -------------------------------------------------------------------------
 # 20. Narrative Request & Response
 # -------------------------------------------------------------------------
 
@@ -736,6 +791,7 @@ class SessionData(BaseModel):
     weights_used: Optional[Union[WeightConfig, Dict[str, Any]]] = None
     feasibility: Optional[Union[List[FeasibilityVerdict], List[Dict[str, Any]]]] = None
     counterfactual: Optional[Union[CounterfactualResult, Dict[str, Any]]] = None
+    stability: Optional[Union[StabilityResult, Dict[str, Any]]] = None
     narratives: Dict[str, Any] = Field(default_factory=dict)
 
     def __getitem__(self, item: str) -> Any:

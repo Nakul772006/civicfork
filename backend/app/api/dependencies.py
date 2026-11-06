@@ -15,6 +15,7 @@ from app.services.osm_service import OSMServiceBase, get_osm_service
 from app.services.ranking_engine import RankingEngine, get_ranking_engine as get_ranking_engine_service
 from app.services.report_generator import ReportGenerator, get_report_generator as get_report_generator_service
 from app.services.scenario_generator import ScenarioGenerator, get_scenario_generator as get_scenario_generator_service
+from app.services.stability_analyzer import StabilityAnalyzer, get_stability_analyzer as get_stability_analyzer_service
 from app.session import SessionStore, session_store
 from app.settings import Settings, settings
 
@@ -62,6 +63,11 @@ def get_ranking_engine() -> RankingEngine:
 def get_counterfactual_engine() -> CounterfactualEngine:
     """Dependency providing the active CounterfactualEngine instance."""
     return get_counterfactual_engine_service()
+
+
+def get_stability_analyzer() -> StabilityAnalyzer:
+    """Dependency providing the active StabilityAnalyzer instance."""
+    return get_stability_analyzer_service()
 
 
 def get_feasibility_checker() -> FeasibilityChecker:

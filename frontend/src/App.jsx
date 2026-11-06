@@ -11,6 +11,7 @@ import { SimulationTable } from './components/scenarios/SimulationTable';
 import { WeightControls } from './components/comparison/WeightControls';
 import { DecisionSnapshot } from './components/comparison/DecisionSnapshot';
 import { ScenarioRankingChart } from './components/analysis/ScenarioRankingChart';
+import { DecisionStability } from './components/analysis/DecisionStability';
 import { ImpactComparisonChart } from './components/analysis/ImpactComparisonChart';
 import { RankingTable } from './components/comparison/RankingTable';
 import { CounterfactualComparison } from './components/comparison/CounterfactualComparison';
@@ -88,6 +89,7 @@ export function App() {
         weightsApplied: null,
         counterfactual: null,
         verdicts: [],
+        stability: null,
         geojson: {
           pois: data.poi_geojson,
           landuse: data.landuse_geojson,
@@ -128,12 +130,20 @@ export function App() {
       } catch {
         // Non-blocking if feasibility fetch encounters an issue during simulate
       }
+      let stability = null;
+      try {
+        const stabData = await apiClient.checkStability(session.sessionId);
+        stability = stabData.result || null;
+      } catch {
+        // Non-blocking if stability fetch encounters an issue during simulate
+      }
       updateSession({
         scenarios: data.scenarios,
         scoreMatrix: data.score_matrix,
         ranking: data.default_ranking,
         weightsApplied: data.default_weights,
         verdicts,
+        stability,
       });
       setActiveStep(3);
     } catch (err) {
@@ -167,6 +177,7 @@ export function App() {
       updateSession({
         ranking: data.ranking,
         weightsApplied: data.weights_applied,
+        stability: data.stability || null,
       });
       setActiveStep(4);
       if (!session.verdicts || session.verdicts.length === 0) {
@@ -504,6 +515,11 @@ export function App() {
 
         <ScenarioRankingChart
           ranking={session.ranking}
+          loading={loading}
+        />
+
+        <DecisionStability
+          stabilityResult={session.stability}
           loading={loading}
         />
 

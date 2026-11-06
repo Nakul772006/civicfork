@@ -205,3 +205,17 @@ class ReportRequest(BaseModel):
     @classmethod
     def validate_session(cls, v: str) -> str:
         return _validate_uuid(v)
+
+
+class StabilityRequest(BaseModel):
+    """Payload for POST /api/stability."""
+
+    model_config = ConfigDict(extra="ignore")
+
+    session_id: str = Field(..., description="Valid session UUID")
+
+    @field_validator("session_id")
+    @classmethod
+    def validate_session(cls, v: str) -> str:
+        return _validate_uuid(v)
+
